@@ -1,6 +1,71 @@
 * {
-    font-family: "Playfair Display", serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-hereo {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("./images/main\ bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    min-height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; 
+    backdrop-filter: blur(5px);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+
+.main {
+    width: 80%;
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.main-text-one {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.main-text-one-date {
+    font-style:italic;
+}
+
+.main-text-two {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bottom-border-cont {
+    display: inline-block;
+    border-bottom: 10px solid white;
+    width: fit-content;
+}
+
+.main-text-three {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
